@@ -39,7 +39,9 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + 
+						'<img class="img-center" src="images/AUTOMATTICA-LOGO-01.png" />' +
+					'</span>' +
 				'</div>'
 			)
 				.appendTo($body);

@@ -4,3 +4,12 @@
     margin-right: auto;
     width: 10%;
   }
+
+.small-with-importance {
+    font-variant: small-caps;
+    font-size: medium;
+}
+
+.text-center {
+    text-align: center;
+}
