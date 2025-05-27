@@ -167,7 +167,7 @@ html {
 }
 
 body {
-    background: #0D1117;
+    background: #0D1117 url("images/bg01.png");
     /* --bg-dark - Dark background */
     /* Consider a subtle dark pattern or removing bg01.png if it's light */
     /* background: #0D1117 url("images/bg01-dark.png"); */
@@ -1191,8 +1191,7 @@ button.small,
     background-color: #0D1117;
     /* --bg-dark */
     /* Assuming bg02.png is a light texture, remove or replace */
-    /* background-image: url("images/bg02-dark.png"), url("images/bg02-dark.png"), url("images/bg01-dark.png"); */
-    background-image: none;
+    background-image: url("images/bg02-dark.png"), url("images/bg02-dark.png"), url("images/bg01-dark.png");
     /* Removing image backgrounds, rely on solid color */
     /* background-position: top left, top left, top left; */
     /* background-size: 100% 6em, 100% 6em, auto; */
@@ -1388,7 +1387,7 @@ button.small,
 /* Banner */
 
 #banner {
-    /* background-image: url("../../images/banner-2.png"); */
+    background-image: url("../../images/banner-2.png");
     /* User will set this */
     background-color: #080C13;
     /* --bg-deep-dark as fallback if no image */
@@ -1470,8 +1469,7 @@ button.small,
     background-color: #080C13;
     /* --bg-deep-dark */
     /* Assuming bg02, bg03 are light. Remove or replace with dark versions */
-    /* background-image: url("images/bg02-dark.png"), url("images/bg03-dark.png"), url("images/bg01-dark.png"); */
-    background-image: none;
+    background-image: url("images/bg02-dark.png"), url("images/bg03-dark.png"), url("images/bg01-dark.png");
     /* Removing default images */
     /* background-position: top left, bottom left, top left; */
     /* background-size: 100% 6em, 100% 6em, auto; */
